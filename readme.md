@@ -33,10 +33,10 @@ htm`<div id=${10}>hello ${'World'}</div>`
 
     ```html
     <!-- This'll created `PinakHtml` global variable. -->
-    <script src="https://cdn.jsdelivr.net/npm/pinak-html"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pinak-html/dist/pinak-html.js"></script>
 
     <!-- Or you nedd any specific version -->
-    <script src="https://cdn.jsdelivr.net/npm/pinak-html@1.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pinak-html@1.0.0/dist/pinak-html.js"></script>
     ```
 
 
