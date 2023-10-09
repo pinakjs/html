@@ -1,0 +1,47 @@
+{
+  "name": "pinak-html",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "author": "Anuj Kumar <anujkumar00p@gmail.com>",
+  "description": "Effortlessly convert HTML into virtual nodes with our versatile parsing library, empowering seamless DOM manipulation in your applications.",
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pinakjs/html.git"
+  },
+  "homepage": "https://pinakjs.github.io/html",
+  "bugs": {
+    "url": "https://github.com/pinakjs/html/issue"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.6.0",
+    "vitest": "^0.34.6"
+  },
+  "files": [
+    "dist",
+    "index.js",
+    "index.mjs"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "html",
+    "html-parser",
+    "pinak"
+  ]
+}
